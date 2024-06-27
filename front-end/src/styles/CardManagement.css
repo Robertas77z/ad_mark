@@ -1,0 +1,107 @@
+.mng-h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mng-form {
+  width: 400px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mng-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mng-form input,
+.mng-form select {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.mng-form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.mng-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mng-form button:hover {
+  background-color: #0056b3;
+}
+
+.mng-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.mng-form button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+.mng-form select {
+  width: calc(100% - 22px);
+}
+
+.mng-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.mng-card {
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+}
+
+.mng-card-content {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.mng-card-content p {
+  margin-bottom: 10px;
+}
+
+.mng-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#mng-btn-s {
+  width: calc(50% - 5px);
+}
+
+#mng-btn-d {
+  width: calc(50%);
+}

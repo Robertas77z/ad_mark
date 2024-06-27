@@ -1,0 +1,12 @@
+.ctg-mng{
+    width: 500px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+   
+}
+.mng-ctg-btn{
+    margin-top: 20px;
+}

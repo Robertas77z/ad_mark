@@ -1,0 +1,93 @@
+.header-style{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid 
+    rgb(75, 112, 245);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#header-search{
+  height: 40px;
+  width: 400px;
+  margin-top: 60px;
+  border-color:
+  rgb(75, 112, 245);
+  margin-left: 40px;
+}
+.header-button{
+    margin-top: 60px;
+    background-color: 
+    rgb(75, 112, 245);
+    border-radius: 10%;
+    border: 1px solid 
+    rgb(75, 112, 245);
+    color: white;
+    height: 40px;
+   
+
+}
+.header-button:hover{
+    box-Shadow: 0px 0px 0px 3px 
+    rgb(33, 77, 238);
+}
+#header-search:hover{
+    box-Shadow: 0px 0px 0px 3px 
+    rgb(33, 77, 238);
+}
+.users-initials{
+    height: 50px;
+    width: 50px;
+   border: 2px solid ;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   border-Color:   rgb(75, 112, 245);
+   color: rgb(75, 112, 245);
+   background-color: white;
+   margin-top: 25px;
+   
+}
+.users-initials:hover{
+    box-Shadow: 0px 0px 0px 3px 
+    rgb(33, 77, 238);
+}
+.marked-books{
+    margin-top: 20px;
+    color: rgb(105, 173, 172);
+}
+#register-btn{
+    margin-top: 60px;
+    background-color:  rgb(75, 112, 245);
+    border-radius: 10%;
+    border: 1px solid  rgb(75, 112, 245);
+    color: white;
+    margin-right: 15px;
+}
+#login-btn{
+    margin-top: 60px;
+    background-color:  rgb(75, 112, 245);
+    border-radius: 10%;
+    border: 1px solid  rgb(75, 112, 245);
+    color: white;
+}
+#login-btn:hover{
+    box-Shadow: 0px 0px 0px 3px rgb(33, 77, 238);
+}
+#register-btn:hover{
+    box-Shadow: 0px 0px 0px 3px rgb(33, 77, 238);
+}
+.favorite-books{
+    margin-top: 30px;
+    background-color:  rgb(75, 112, 245);
+    border-radius: 10px;
+    border: 1px solid  rgb(75, 112, 245);
+    color: white;
+}
+.form-check {
+    margin-top: 75px;
+  }
+.fa-search{
+    margin-top: 70px;
+}
