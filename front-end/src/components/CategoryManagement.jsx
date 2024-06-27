@@ -38,7 +38,9 @@ const CategoryManagement = () => {
                 setCategoryName("");
                 setCategories([...categories, response.data]);
             }).catch(error => {
+                window.alert("Tokia kategorija jau egzistuoja");
                 console.error("Klaida kuriant kategoriją:", error);
+                
             });
         }
     };
